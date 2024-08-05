@@ -1,0 +1,11 @@
+[package]
+name = "link_fetcher-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.5"
+axum-macros = "0.4.1"
+eyre = "0.6.12"
+serde = { version = "1.0.204", features = ["serde_derive"] }
+tokio = { version = "1.39.2", features = ["full"] }
